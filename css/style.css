@@ -1,0 +1,110 @@
+body, html {
+  height: 100%;
+  margin: 0;
+  color: #777;
+  font-family: 'Sanchez', serif;
+}
+h3 {
+  text-align: center;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  color: #111;
+  font-family: 'Sanchez', serif;
+}
+.txt-center{
+  text-align: center;
+}
+.txt-lg{
+  font-size: 25px;
+  line-height: 35px;
+}
+.img-profile{
+  border-radius: 50%;
+  width: 200px;
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.plax_1, .plax_2, .plax_3, .plax_4, .plax_5 {
+  position: relative;
+  opacity: 0.85;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.plax_1 {
+  background-image: url("../img/person_studying2.jpg?1");
+  min-height: 100%;
+}
+.plax_2 {
+  background-image: url("../img/coffee_bar.jpg?1");
+  min-height: 400px;
+}
+.plax_3 {
+  background-image: url("../img/book.jpg?1");
+  min-height: 400px;
+}
+.plax_4 {
+  background-image: url("../img/person_studying.jpg?1");
+  min-height: 400px;
+}
+.plax_5 {
+  background-image: url("../img/desk.jpg?1");
+  min-height: 400px;
+}
+.container{
+  color: #777;
+  background-color:white;
+  text-align:center;
+  padding: 50px 80px;
+  text-align: justify;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.title-block {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  color: #000;
+}
+.title-inline_main {
+  background-color: #663366;
+  color: #fff;
+  padding: 18px;
+  font-family: 'Sanchez', serif;
+  font-size: 36pt;
+  letter-spacing: 10px;
+  text-shadow: 0px 0px 3px rgba(0, 0, 0, 1);
+}
+.title-inline_sub {
+  padding: 18px;
+  font-family: 'Sanchez', serif;
+  letter-spacing: 10px;
+  text-shadow: 0px 0px 3px rgba(0, 0, 0, 1);
+  background-color:transparent;
+  font-size:25px;
+  color: #f7f7f7;
+}
+@media only screen and (max-width: 768px) {
+  .container{
+    padding: 10px 20px;
+  }
+  .txt-lg{
+  	text-align: left;
+  }
+  .uk-width-medium-1-1{
+  	margin-top: 30px;
+  }
+  .title-inline_main{
+  	line-height: 90px;
+  	font-size: 20pt;
+  	background-color: transparent;
+  }
+  .title-inline_sub{
+  	line-height: 40px;
+  }
+}
